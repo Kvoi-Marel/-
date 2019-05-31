@@ -6,4 +6,4 @@
 * 1 cpu
 * 2 hdd (назвав их ssd1, ssd2 и назначил равный размер, поставив галочки hot swap и ssd)
 * SATA контроллер настроен на 4 порта
-![](/Image1/Screenshot_1.png)
+![](Image1/Screenshot_1.png)
