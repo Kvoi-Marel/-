@@ -7,7 +7,9 @@
 * 2 hdd (назвав их ssd1, ssd2 и назначил равный размер, поставив галочки hot swap и ssd)
 * SATA контроллер настроен на 4 порта
 ![](Image1/Screenshot_1.png)
+
 2.Начало установки Linux:
+
 ![](Image1/NPgiMGkrVoo.jpg)
 * Настройка отдельного раздела под /boot: Выбрав первый диск, создал на нем новую таблицу разделов
 * Partition size: 512M
@@ -133,6 +135,7 @@
 ![](Image3/UDs7_NRDpiE.jpg)
 
 Появился /dev/md63
+
 6.Настройка LVM
 * Выполнение команды pvs для просмотра информации о текущих физических томах
 ![](Image3/nF1f_1IJoXE.jpg)
@@ -146,6 +149,7 @@ vgs
 lvs -a -o+devices
 ![](Image3/J5ReFDfxEaI.jpg)
 ![](Image3/WyRRrq6q3cg.jpg)
+
 var,log,root находятся на /dev/md0
 * Перемещение данных со старого диска на новый
 ![](Image3/DeyoQ5ta4ec.jpg)
